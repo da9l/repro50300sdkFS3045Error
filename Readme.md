@@ -24,6 +24,15 @@ dotnet build
 
 It should compile
 
-## Workaround
+## Workaround 1
 
 Downgrade to SDK 5.0.203 by editing `global.json`
+
+## Workaround 2
+
+```fsharp
+[<Literal>]
+let refDir = __SOURCE_DIRECTORY__
+type Sample = XmlProvider<Schema="Sample.xsd",
+                          ResolutionFolder=refDir>
+```

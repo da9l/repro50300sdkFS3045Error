@@ -4,8 +4,6 @@ open FSharp.Data
 
 type Sample = XmlProvider<Schema="Sample.xsd",
                           ResolutionFolder=__SOURCE_DIRECTORY__>
-// type Camt053 = XmlProvider<Schema           = "camt.053.001.02.xsd", 
-// ResolutionFolder = srcDir>
 
 
 // Define a function to construct a message to print
