@@ -1,4 +1,4 @@
-# Reproduction of error FS3045 in SDK 5.0.300
+# Reproduction of regression compilation error FS3045 in SDK 5.0.300
 
 ## To reproduce
 
@@ -18,5 +18,3 @@ It should compile
 ## Workaround
 
 Downgrade to SDK 5.0.203 by editing `global.json`
-
-
