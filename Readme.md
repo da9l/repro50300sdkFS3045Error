@@ -1,5 +1,14 @@
 # Reproduction of regression compilation error FS3045 in SDK 5.0.300
 
+## Prerequisites
+
+Install both dotnet SDK 5.0.203 and 5.0.300
+
+```powershell
+choco install dotnet-sdk --version 5.0.203 -m
+choco install dotnet-sdk --version 5.0.300 -m
+```
+
 ## To reproduce
 
 ```powershell
